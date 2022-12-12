@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="PL">
+<html lang = "PL">
 <head>
-	<meta charset="UTF-8">
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<title>Pilot A BSCAV</title>  
+<title>Pilot A BSC AV KRK</title>
+<meta charset="UTF-8">
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+#lewo{
+float:left;
+width: 90%;
+height: 100%;
+overflow:auto;
+}
+nav{
+float:right;
+width: 10%;
+height: 100%;
+overflow:auto;
+}
+#box{
+width: 100vw;
+height: 100vh;
+text-align: center;
+margin: 0 auto;
+}
+</style>
 </head>
-
 <body>
-<iframe src="https://advanced.vmixcall.com/" allow="camera *;microphone *" style="position:absolute;top:0;left:0;width:90%;height:95%;"></iframe>
-
-	<img id="next" src="https://raw.githubusercontent.com/bscavkrk/remoteppt/main/images/next.png" style="width:8%; height:8%; float:right;" alt="bscav">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-	<img id="back" src="https://raw.githubusercontent.com/bscavkrk/remoteppt/main/images/back.png" style="width:8%; height:8%; float:right;" alt="bscav">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-	<img id="logo" src="https://raw.githubusercontent.com/bscavkrk/remoteppt/main/images/logo%20rozl%201%20alpha.png" style="width:8%; height:8%; float:right;" alt="bscav">
-	
-	
-    
-
+<div id="box">
+<div id="lewo">
+<iframe src="https://advanced.vmixcall.com/" allow="camera *;microphone *" style=";width:100%;height:100%; display:block;"></iframe>
+</div>
+<nav>
+<img src="https://raw.githubusercontent.com/bscavkrk/clickonly/main/images/next.png" alt="next" style="width:100%; display:block;">
+<img src="https://raw.githubusercontent.com/bscavkrk/clickonly/main/images/back.png" alt="back" style="width:100%; display:block;">
+</nav>
+<img src="https://raw.githubusercontent.com/bscavkrk/clickonly/main/images/logo%20rozl%201%20alpha.png" alt="logo" style="position:absolute; bottom:0px; right:0px; width:10%">
+</div>
 <script>
 
 var images = [];
@@ -100,6 +99,5 @@ $(document).ready(function()
 
 
 </script>
-
 </body>
 </html>
